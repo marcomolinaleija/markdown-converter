@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'markdown-to-html' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'markdown-to-html' '1.0'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2024-04-13 01:03-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Translators: This is the description of what the keyboard shortcut will do. Takes the text from the clipboard to convert it to html (It will only convert what follows the appropriate syntax)
+#: addon\globalPlugins\markdown-converter.py:29
+msgid ""
+"Toma del portapapeles el texto para convertirlo a html (Solo convertirá lo "
+"que siga la sintaxis adecuada)."
+msgstr "Takes the text from the clipboard to convert it into HTML (It will only convert text that follows the correct syntax)."
+
+#. Translators: Category name of the addon
+#. Translators: category name of the addon
+#: addon\globalPlugins\markdown-converter.py:32
+#: addon\globalPlugins\markdown-converter.py:47
+msgid "Convertor markdown a html"
+msgstr "Markdown to HTML Converter"
+
+#. Translators: This message announces that the conversion has been successful
+#: addon\globalPlugins\markdown-converter.py:40
+msgid "Texto convertido exitosamente"
+msgstr "Text successfully converted"
+
+#. Translators: This is the description of the key shortcut to convert from a text file with .md extension
+#: addon\globalPlugins\markdown-converter.py:44
+msgid "Abre un diálogo que permite la selección de un archivo .md,  markdown"
+msgstr "Opens a dialog that allows the selection of a .md, markdown file"
+
+#. Translators: This message announces that the conversion has been successful
+#: addon\globalPlugins\markdown-converter.py:69
+msgid "Archivo Markdown convertido y copiado exitosamente al portapapeles"
+msgstr "Markdown file successfully converted and copied to clipboard"
+
+#: addon\globalPlugins\markdown-converter.py:69
+msgid "Información:"
+msgstr "Information"
+
+#. Translators: If an error occurs during the conversion, the following message will inform you.
+#: addon\globalPlugins\markdown-converter.py:72
+msgid "Nó ha sido posible abrir el archivo seleccionado"
+msgstr "Unable to open the selected file"
+
+#: addon\globalPlugins\markdown-converter.py:72
+msgid "Error:"
+msgstr "Error"
+
+#. Translators: The title of the dialog requesting donations from users.
+#: addon\installTasks.py:20
+msgid "Por favor, dona"
+msgstr "Please donate"
+
+#. Translators: The text of the donate dialog
+#: addon\installTasks.py:23
+msgid ""
+"markdown-to-html  - complemento gratuito para NVDA.\n"
+"        Puedes hacer una donación a Marco Leija para ayudar en el desarrollo "
+"futuro de este complemento.\n"
+"        ¿Quieres hacer una donación ahora? Para la transacción, serás "
+"redirigido al sitio web de PayPal."
+msgstr ""
+"markdown-to-html - a free NVDA add-on.\n"
+"You can make a donation to Marco Leija to assist in the future development"
+"of this add-on.\n"
+"Would you like to make a donation now? You will be"
+"redirected to the PayPal website for the transaction."
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "markdown-to-html"
+msgstr "markdown-to-html"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "complemento de NVDA que permite convertir texto markdown a html."
+msgstr "An NVDA add-on that allows converting markdown text to HTML."
