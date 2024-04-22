@@ -74,6 +74,3 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
         except IOError:
             # Translators: If an error occurs during the conversion, the following message will inform you.
             wx.CallAfter(wx.MessageBox, _("Nó ha sido posible abrir el archivo seleccionado"), _("Error:"), wx.OK | wx.ICON_ERROR)
-
-    def __init__(self):
-        super(GlobalPlugin, self).__init__()
